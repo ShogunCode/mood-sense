@@ -53,18 +53,18 @@ MoodSense implements several security measures to protect user data and ensure a
 
 MoodSense API provides the following CRUD operations:
 
-- <b>GET: Retrieve mood logs for a specific user from the database</b>
-- <b>POST: Create a new mood log record for a specific user</b>
-- <b>PUT: Update an existing mood log record</b>
-- <b>DELETE: Delete a mood log record</b>
+  - <b>GET: Retrieve mood logs for a specific user from the database</b>
+  - <b>POST: Create a new mood log record for a specific user</b>
+  - <b>PUT: Update an existing mood log record</b>
+  - <b>DELETE: Delete a mood log record</b>
 
 <h2>Database Structure</h2>
 
 MoodSense utilizes three primary tables in its MySQL database:
 
-users: Contains user information and is updated upon user registration
-mood_log: Links to the users table through a relational relationship and stores mood log entries
-moodsense_api: Stores API key information for each user, generated upon user registration
+- users: Contains user information and is updated upon user registration
+- mood_log: Links to the users table through a relational relationship and stores mood log entries
+- moodsense_api: Stores API key information for each user, generated upon user registration
 
 <h2>Underlying Structure</h2>
 

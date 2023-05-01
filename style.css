@@ -1,0 +1,54 @@
+
+  /* Define styles for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Styles for the logo */
+    .logo {
+      max-width: 50%;
+    }
+  
+    /* Styles for the navigation bar */
+    .nav {
+      flex-direction: column;
+    }
+  }
+  
+  /* Define styles for screens larger than 768px */
+  @media (min-width: 768px) {
+    /* Styles for the logo */
+    .logo {
+      max-width: 100%;
+    }
+  
+    /* Styles for the navigation bar */
+    .nav {
+      flex-direction: row;
+    }
+  }
+
+  .logo {
+    width: 350px; /* Set the width of the image */
+    height: auto; /*Set the height to auto to maintain the aspect ratio */
+    position: absolute; /* Position the image absolutely */
+    top: 10px; /* Position the image 10px from the top of the page */
+    left: 150px; /* Position the image 10px from the right side of the page */
+    display: inline-block; /* Display the image as an inline-block element */
+    z-index: 100; /* Set a high z-index to ensure the image is always on top */
+  }
+
+  .filterblue {
+   filter: invert(40%) sepia(21%) saturate(4066%) hue-rotate(197deg) brightness(91%) contrast(92%);
+   max-height: fit-content;
+   max-width: 350px;
+   height: auto;
+   margin: 0 auto;
+   padding: 10px;
+  }
+
+  .d-block {
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  
